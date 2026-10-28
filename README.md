@@ -16,21 +16,26 @@ I want to make an app that gives simple recycling information in one place. I ho
 ## 3. Main Features
 
 -Search Waste
+
 Users can search for waste items by typing their names, such as plastic bottles or paper cups.
 
 -Recycling Information
+
 The app will show the correct way to separate and dispose of each item.
 
 -Waste Categories
+
 Users can choose categories such as plastic, paper, glass, metal, and general waste.
 
 -Favorite List
+
 Users can save items they often search for and check them again later.
 
 -Search History
 The app will save recently searched items so users can find them easily.
 
 -AI Waste Recognition
+
 If possible, I want to add a feature that recognizes waste from an uploaded picture. This feature will be developed after the basic functions are completed.
 
 ## 4.Development Plan
