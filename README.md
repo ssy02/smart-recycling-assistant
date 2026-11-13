@@ -1,53 +1,118 @@
-# smart-recycling-assistant
-Term Project Proposal
+# Smart Recycling Assistant
 
-## Project Title: Smart Recycling Assistant
+**Term Project Proposal and Implementation**
+
+Smart Recycling Assistant is a simple web application that helps users find general information about sorting and disposing of common waste items. Users can search for an item, browse waste categories, read preparation and disposal instructions, save favorites, and review recent searches.
 
 ## 1. Project Overview
 
-I want to make a web application called Smart Recycling Assistant. This app will help people know how to separate and throw away waste correctly.
-For example, users can search for plastic bottles, paper, cans, and glass bottles. The app will show the waste category and explain how to recycle each item. I also want to try adding a simple AI feature that can recognize waste from a picture.
+Recycling rules can be confusing, especially for people who are new to Korea. This project collects basic recycling guidance in one place so users can quickly look up common items and learn how to prepare them before disposal.
 
-## 2. Purpose of the Project
+## 2. Main Features
 
-I chose this topic because recycling can be confusing, especially for people who are new to Korea. Sometimes, I do not know which waste category an item belongs to or how to throw it away correctly.
-I want to make an app that gives simple recycling information in one place. I hope this app can help people recycle more easily in their daily lives.
+- **Search Waste:** Search by item name, category, or keyword.
+- **Recycling Information:** View preparation steps, disposal guidance, and useful tips.
+- **Waste Categories:** Browse items by Plastic, Paper, Glass, Metal, Organic, General Waste, and Special Waste.
+- **Favorite List:** Save frequently checked items during the current app session.
+- **Search History:** Review recent searches during the current app session.
+- **About Page:** Read the project purpose, technologies, and limitations.
 
-## 3. Main Features
+## 3. Technologies
 
--Search Waste
+- Python 3.10 or newer
+- Streamlit
+- JSON for storing the sample waste-item information
 
-Users can search for waste items by typing their names, such as plastic bottles or paper cups.
+## 4. Project Structure
 
--Recycling Information
+```text
+smart-recycling-assistant/
+├── app.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── .gitignore
+└── data/
+    └── waste_items.json
+```
 
-The app will show the correct way to separate and dispose of each item.
+## 5. How to Run the Project
 
--Waste Categories
+### Step 1: Install Python
 
-Users can choose categories such as plastic, paper, glass, metal, and general waste.
+Install Python 3.10 or newer from [https://www.python.org/downloads/](https://www.python.org/downloads/). During installation on Windows, select **Add Python to PATH**.
 
--Favorite List
+### Step 2: Download the project
 
-Users can save items they often search for and check them again later.
+Clone the repository:
 
--Search History
-The app will save recently searched items so users can find them easily.
+```bash
+git clone https://github.com/YOUR-USERNAME/smart-recycling-assistant.git
+cd smart-recycling-assistant
+```
 
--AI Waste Recognition
+Alternatively, download the repository ZIP from GitHub and extract it.
 
-If possible, I want to add a feature that recognizes waste from an uploaded picture. This feature will be developed after the basic functions are completed.
+### Step 3: Install the required library
 
-## 4.Development Plan
+Open a terminal in the project folder and run:
 
-I will use Python to develop this project and Streamlit to make the web application. I will use JSON files to store waste information and user data.
-First, I will collect information about common waste items. Then, I will make the search function and recycling guide. After that, I will add the favorite list and search history.
-Finally, I will test the app and fix any problems. If I have enough time, I will try to add the AI image recognition feature.
+```bash
+python -m pip install -r requirements.txt
+```
 
-## 5. Expected Results
+### Step 4: Start the application
 
-Through this project, users can find recycling information more easily. I hope the app will help people separate waste correctly and learn more about recycling.
-I also want to improve my Python skills and learn how to make a web application. By using GitHub and open-source libraries, I can get more experience in software development.
-## 6. Conclusion
+```bash
+python -m streamlit run app.py
+```
 
-Smart Recycling Assistant is a useful project that can help people in their daily lives. I will start with simple functions and improve the app step by step. I hope to make an application that is easy to use and helpful for people who want to recycle correctly.
+A browser tab should open with the application. If it does not, copy the local URL printed in the terminal (usually `http://localhost:8501`) into a browser.
+
+## 6. How to Use
+
+1. Choose **Search Waste** from the sidebar.
+2. Enter an item name or keyword, such as `plastic bottle`, `paper`, or `can`.
+3. Open a result to see its category, preparation steps, disposal instructions, and tip.
+4. Select **Add to favorites** to save an item.
+5. Open **Waste Categories** to browse by material.
+6. Open **Favorites** or **Search History** to review items you have used.
+
+## 7. Data
+
+The sample item information is stored in `data/waste_items.json`. Each item includes:
+- `name`: item name
+- `category`: waste category
+- `keywords`: alternative search terms
+- `recyclable`: whether recycling or a special collection may be available
+- `preparation`: how to prepare the item
+- `disposal`: general disposal guidance
+- `tip`: an additional reminder
+
+More items can be added by following the same JSON structure.
+
+## 8. Testing Checklist
+
+- [ ] The application starts with the Streamlit command.
+- [ ] Searching for `plastic bottle` returns a matching item.
+- [ ] Searching for an unknown word shows a no-results message.
+- [ ] Category selection filters the displayed items.
+- [ ] Add to favorites and remove from favorites work.
+- [ ] Search history records recent search terms.
+- [ ] Clear search history removes the displayed history.
+
+## 9. Limitations and Future Work
+
+The current version uses a small sample JSON database and general recycling guidance. Recycling rules vary by location, so users should confirm local instructions. Favorites and search history are stored in the Streamlit session and are not permanent across separate sessions.
+
+A possible future improvement is AI-based waste image recognition. This is not included in the current basic version; it can be developed after the core functions are stable.
+
+## 10. License
+
+This project is released under the MIT License. See [LICENSE](LICENSE).
+
+## 11. Author
+
+- **Author:** Add your name here
+- **Course:** Add your course name here
+- **Project:** Smart Recycling Assistant
