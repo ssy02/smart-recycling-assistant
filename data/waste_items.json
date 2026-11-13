@@ -1,0 +1,178 @@
+[
+  {
+    "name": "Plastic bottle",
+    "category": "Plastic",
+    "keywords": [
+      "PET bottle",
+      "water bottle",
+      "drink bottle"
+    ],
+    "recyclable": true,
+    "preparation": "Empty the bottle, remove the cap and label if your local rules require it, and rinse it lightly.",
+    "disposal": "Put it in the plastic recycling collection. Keep it separate from general waste.",
+    "tip": "Do not put a bottle with leftover liquid into the recycling bin."
+  },
+  {
+    "name": "Plastic food container",
+    "category": "Plastic",
+    "keywords": [
+      "food tub",
+      "takeaway container"
+    ],
+    "recyclable": true,
+    "preparation": "Remove food and rinse the container. Check the recycling symbol and local rules.",
+    "disposal": "Place clean accepted plastic containers in the plastic recycling collection.",
+    "tip": "Heavily contaminated or mixed-material containers may not be accepted."
+  },
+  {
+    "name": "Plastic bag",
+    "category": "Plastic",
+    "keywords": [
+      "shopping bag",
+      "carrier bag",
+      "vinyl bag"
+    ],
+    "recyclable": false,
+    "preparation": "Keep it clean and dry. Do not mix it with rigid plastic items unless local guidance says so.",
+    "disposal": "Follow your local collection rules. Some areas have a separate bag or film collection; otherwise use the designated waste stream.",
+    "tip": "Plastic film can become tangled in sorting machines, so check local guidance first."
+  },
+  {
+    "name": "Paper",
+    "category": "Paper",
+    "keywords": [
+      "office paper",
+      "writing paper",
+      "worksheet"
+    ],
+    "recyclable": true,
+    "preparation": "Keep paper clean and dry. Remove plastic covers and other non-paper materials.",
+    "disposal": "Put it in the paper recycling collection.",
+    "tip": "Wet, oily, or food-soiled paper is often not accepted with clean paper."
+  },
+  {
+    "name": "Cardboard box",
+    "category": "Paper",
+    "keywords": [
+      "carton",
+      "shipping box",
+      "packing box"
+    ],
+    "recyclable": true,
+    "preparation": "Flatten the box and remove tape or plastic wrapping where practical.",
+    "disposal": "Place it in the paper/cardboard recycling collection.",
+    "tip": "Keep cardboard dry and free from food residue."
+  },
+  {
+    "name": "Newspaper",
+    "category": "Paper",
+    "keywords": [
+      "newsprint",
+      "daily paper"
+    ],
+    "recyclable": true,
+    "preparation": "Keep newspapers clean and dry. Bundle them if required by your local collection.",
+    "disposal": "Put them with paper recycling.",
+    "tip": "Do not include tissues or heavily soiled paper."
+  },
+  {
+    "name": "Glass bottle",
+    "category": "Glass",
+    "keywords": [
+      "glass jar",
+      "beverage bottle"
+    ],
+    "recyclable": true,
+    "preparation": "Empty and rinse the bottle. Separate caps or lids according to local rules.",
+    "disposal": "Put it in the glass recycling collection, using the correct color section if your area separates colors.",
+    "tip": "Broken glass may require special handling; follow local safety and collection guidance."
+  },
+  {
+    "name": "Glass jar",
+    "category": "Glass",
+    "keywords": [
+      "food jar",
+      "jam jar"
+    ],
+    "recyclable": true,
+    "preparation": "Empty and rinse the jar. Remove the lid if required.",
+    "disposal": "Place it in the glass recycling collection.",
+    "tip": "Ceramics, mirrors, and heat-resistant glass are usually not accepted with bottle glass."
+  },
+  {
+    "name": "Aluminum can",
+    "category": "Metal",
+    "keywords": [
+      "drink can",
+      "soda can",
+      "tin can"
+    ],
+    "recyclable": true,
+    "preparation": "Empty and rinse the can. Do not crush it if your local collection asks you to keep its shape.",
+    "disposal": "Put it in the metal or can recycling collection.",
+    "tip": "Make sure no liquid remains inside."
+  },
+  {
+    "name": "Steel food can",
+    "category": "Metal",
+    "keywords": [
+      "tin can",
+      "food tin"
+    ],
+    "recyclable": true,
+    "preparation": "Empty, rinse, and drain the can. Handle sharp edges carefully.",
+    "disposal": "Place it in the metal recycling collection.",
+    "tip": "Check local guidance for attached lids."
+  },
+  {
+    "name": "Food waste",
+    "category": "Organic",
+    "keywords": [
+      "leftovers",
+      "vegetable peels",
+      "food scraps"
+    ],
+    "recyclable": true,
+    "preparation": "Drain excess liquid and remove packaging, plastic, and other contaminants.",
+    "disposal": "Use the designated food-waste collection or composting system.",
+    "tip": "Rules differ by area; check which food scraps are accepted."
+  },
+  {
+    "name": "Used tissue",
+    "category": "General Waste",
+    "keywords": [
+      "tissue paper",
+      "used napkin"
+    ],
+    "recyclable": false,
+    "preparation": "No special preparation is needed.",
+    "disposal": "Put it in general waste unless your local authority provides a separate accepted stream.",
+    "tip": "Used tissues are generally not accepted with clean paper recycling."
+  },
+  {
+    "name": "Ceramic cup",
+    "category": "General Waste",
+    "keywords": [
+      "mug",
+      "ceramic",
+      "porcelain"
+    ],
+    "recyclable": false,
+    "preparation": "Wrap broken pieces securely and follow local disposal guidance.",
+    "disposal": "Do not put ceramics in bottle-glass recycling. Use the designated waste route.",
+    "tip": "Ceramic and porcelain have different properties from container glass."
+  },
+  {
+    "name": "Battery",
+    "category": "Special Waste",
+    "keywords": [
+      "AA battery",
+      "rechargeable battery",
+      "cell"
+    ],
+    "recyclable": true,
+    "preparation": "Keep batteries out of ordinary trash. Protect terminals if local guidance recommends it.",
+    "disposal": "Take them to an approved battery collection point.",
+    "tip": "Never place batteries in regular recycling or general waste when a collection point is available."
+  }
+]
